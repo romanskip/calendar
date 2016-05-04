@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[DCDatesStore filterList:]:DCDatesStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int) (filterDates.count) -1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CygnusViewController calendarPicker:willSetState:fromState:]:CygnusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendarPicker.currentState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CygnusViewController calendarPicker:dateSelected:withState:]:CygnusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[format stringFromDate: serviceDate.serviceDate]">
+            </PersistentString>
+            <PersistentString
+               value = "[format stringFromDate: date] ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CygnusViewController tableView:heightForHeaderInSection:]:CygnusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendar.currentState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CygnusViewController tableView:didSelectRowAtIndexPath:]:CygnusViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController save:]:DetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CygnusViewController calendarPicker:animateNewHeight:]:CygnusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "calendarPicker.currentState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F481D4931A2BDCC900FE1341 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F481D4921A2BDCC900FE1341 /* FMDatabasePool.m */; };
+		F483042717B9C89C0065B258 /* DCDate.m in Sources */ = {isa = PBXBuildFile; fileRef = F483042617B9C89B0065B258 /* DCDate.m */; };
+		F483042A17B9CC620065B258 /* DCDatesStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F483042917B9CC620065B258 /* DCDatesStore.m */; };
+		F483042C17B9D7330065B258 /* HeaderViewCalendar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F483042B17B9D7330065B258 /* HeaderViewCalendar.xib */; };
+		F48361621A28308A003E55E5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F483615F1A28308A003E55E5 /* FMDatabase.m */; };
+		F48361631A28308A003E55E5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F48361611A28308A003E55E5 /* FMResultSet.m */; };
+		F48361651A28310C003E55E5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F48361641A28310C003E55E5 /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		F487644217A8B7830030BC50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487644117A8B7830030BC50 /* UIKit.framework */; };
+		F487644417A8B7830030BC50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487644317A8B7830030BC50 /* Foundation.framework */; };
+		F487644617A8B7830030BC50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487644517A8B7830030BC50 /* CoreGraphics.framework */; };
+		F487644C17A8B7830030BC50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F487644A17A8B7830030BC50 /* InfoPlist.strings */; };
+		F487644E17A8B7830030BC50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F487644D17A8B7830030BC50 /* main.m */; };
+		F487645217A8B7830030BC50 /* CygnusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F487645117A8B7830030BC50 /* CygnusAppDelegate.m */; };
+		F487645417A8B7830030BC50 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F487645317A8B7830030BC50 /* Default.png */; };
+		F487645617A8B7830030BC50 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F487645517A8B7830030BC50 /* Default@2x.png */; };
+		F487645817A8B7830030BC50 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F487645717A8B7830030BC50 /* Default-568h@2x.png */; };
+		F487645B17A8B7830030BC50 /* CygnusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F487645A17A8B7830030BC50 /* CygnusViewController.m */; };
+		F487646817A8B7AF0030BC50 /* ABCalendarPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F487646717A8B7AF0030BC50 /* ABCalendarPicker.bundle */; };
+		F487646A17A8B7B60030BC50 /* ABCalendarPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F487646917A8B7B60030BC50 /* ABCalendarPicker.framework */; };
+		F488323217BDCB8100E22025 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F488323117BDCB8100E22025 /* DetailViewController.m */; };
+		F488323417BDCBB900E22025 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F488323317BDCBB900E22025 /* DetailViewController.xib */; };
+		F488824417B1EDED00A85D44 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F488824317B1EDED00A85D44 /* MainWindow.xib */; };
+		F4B6A1AE1951360F00E11512 /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B6A1AC1951360F00E11512 /* CustomerViewController.m */; };
+		F4B6A1AF1951360F00E11512 /* CustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4B6A1AD1951360F00E11512 /* CustomerViewController.xib */; };
+		F4FB5FF219526A6C00FF0232 /* DCCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB5FF119526A6C00FF0232 /* DCCustomer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F481D4911A2BDCC900FE1341 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		F481D4921A2BDCC900FE1341 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		F483042517B9C89B0065B258 /* DCDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDate.h; sourceTree = "<group>"; };
+		F483042617B9C89B0065B258 /* DCDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDate.m; sourceTree = "<group>"; };
+		F483042817B9CC620065B258 /* DCDatesStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDatesStore.h; sourceTree = "<group>"; };
+		F483042917B9CC620065B258 /* DCDatesStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDatesStore.m; sourceTree = "<group>"; };
+		F483042B17B9D7330065B258 /* HeaderViewCalendar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderViewCalendar.xib; sourceTree = "<group>"; };
+		F483615E1A28308A003E55E5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F483615F1A28308A003E55E5 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F48361601A28308A003E55E5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F48361611A28308A003E55E5 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F48361641A28310C003E55E5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F487643E17A8B7830030BC50 /* ABCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F487644117A8B7830030BC50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F487644317A8B7830030BC50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F487644517A8B7830030BC50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F487644917A8B7830030BC50 /* ABCalendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABCalendar-Info.plist"; sourceTree = "<group>"; };
+		F487644B17A8B7830030BC50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F487644D17A8B7830030BC50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F487644F17A8B7830030BC50 /* ABCalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		F487645017A8B7830030BC50 /* CygnusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CygnusAppDelegate.h; sourceTree = "<group>"; };
+		F487645117A8B7830030BC50 /* CygnusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CygnusAppDelegate.m; sourceTree = "<group>"; };
+		F487645317A8B7830030BC50 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F487645517A8B7830030BC50 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F487645717A8B7830030BC50 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F487645917A8B7830030BC50 /* CygnusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CygnusViewController.h; sourceTree = "<group>"; };
+		F487645A17A8B7830030BC50 /* CygnusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CygnusViewController.m; sourceTree = "<group>"; };
+		F487646717A8B7AF0030BC50 /* ABCalendarPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ABCalendarPicker.bundle; sourceTree = "<group>"; };
+		F487646917A8B7B60030BC50 /* ABCalendarPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ABCalendarPicker.framework; sourceTree = "<group>"; };
+		F488323017BDCB8100E22025 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F488323117BDCB8100E22025 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F488323317BDCBB900E22025 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		F488824317B1EDED00A85D44 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		F4B6A1AB1951360F00E11512 /* CustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		F4B6A1AC1951360F00E11512 /* CustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
+		F4B6A1AD1951360F00E11512 /* CustomerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerViewController.xib; sourceTree = "<group>"; };
+		F4C808801A2EC4860026EF0D /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		F4FB5FF019526A6C00FF0232 /* DCCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCustomer.h; sourceTree = "<group>"; };
+		F4FB5FF119526A6C00FF0232 /* DCCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCustomer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F487643B17A8B7830030BC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48361651A28310C003E55E5 /* libsqlite3.dylib in Frameworks */,
+				F487644217A8B7830030BC50 /* UIKit.framework in Frameworks */,
+				F487644417A8B7830030BC50 /* Foundation.framework in Frameworks */,
+				F487644617A8B7830030BC50 /* CoreGraphics.framework in Frameworks */,
+				F487646A17A8B7B60030BC50 /* ABCalendarPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F487643517A8B7830030BC50 = {
+			isa = PBXGroup;
+			children = (
+				F487646717A8B7AF0030BC50 /* ABCalendarPicker.bundle */,
+				F487644717A8B7830030BC50 /* ABCalendar */,
+				F487644017A8B7830030BC50 /* Frameworks */,
+				F487643F17A8B7830030BC50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F487643F17A8B7830030BC50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F487643E17A8B7830030BC50 /* ABCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F487644017A8B7830030BC50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F48361641A28310C003E55E5 /* libsqlite3.dylib */,
+				F487646917A8B7B60030BC50 /* ABCalendarPicker.framework */,
+				F487644117A8B7830030BC50 /* UIKit.framework */,
+				F487644317A8B7830030BC50 /* Foundation.framework */,
+				F487644517A8B7830030BC50 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F487644717A8B7830030BC50 /* ABCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F4C427641A30236B00DBFDA2 /* tmp */,
+				F481D4911A2BDCC900FE1341 /* FMDatabasePool.h */,
+				F481D4921A2BDCC900FE1341 /* FMDatabasePool.m */,
+				F483615E1A28308A003E55E5 /* FMDatabase.h */,
+				F483615F1A28308A003E55E5 /* FMDatabase.m */,
+				F48361601A28308A003E55E5 /* FMResultSet.h */,
+				F4C808801A2EC4860026EF0D /* FMDB.h */,
+				F48361611A28308A003E55E5 /* FMResultSet.m */,
+				F487645017A8B7830030BC50 /* CygnusAppDelegate.h */,
+				F487645117A8B7830030BC50 /* CygnusAppDelegate.m */,
+				F488323017BDCB8100E22025 /* DetailViewController.h */,
+				F488323117BDCB8100E22025 /* DetailViewController.m */,
+				F487645917A8B7830030BC50 /* CygnusViewController.h */,
+				F487645A17A8B7830030BC50 /* CygnusViewController.m */,
+				F488824317B1EDED00A85D44 /* MainWindow.xib */,
+				F487644817A8B7830030BC50 /* Supporting Files */,
+				F483042517B9C89B0065B258 /* DCDate.h */,
+				F483042617B9C89B0065B258 /* DCDate.m */,
+				F483042817B9CC620065B258 /* DCDatesStore.h */,
+				F483042917B9CC620065B258 /* DCDatesStore.m */,
+				F483042B17B9D7330065B258 /* HeaderViewCalendar.xib */,
+				F488323317BDCBB900E22025 /* DetailViewController.xib */,
+				F4B6A1AB1951360F00E11512 /* CustomerViewController.h */,
+				F4B6A1AC1951360F00E11512 /* CustomerViewController.m */,
+				F4B6A1AD1951360F00E11512 /* CustomerViewController.xib */,
+				F4FB5FF019526A6C00FF0232 /* DCCustomer.h */,
+				F4FB5FF119526A6C00FF0232 /* DCCustomer.m */,
+			);
+			path = ABCalendar;
+			sourceTree = "<group>";
+		};
+		F487644817A8B7830030BC50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F487644917A8B7830030BC50 /* ABCalendar-Info.plist */,
+				F487644A17A8B7830030BC50 /* InfoPlist.strings */,
+				F487644D17A8B7830030BC50 /* main.m */,
+				F487644F17A8B7830030BC50 /* ABCalendar-Prefix.pch */,
+				F487645317A8B7830030BC50 /* Default.png */,
+				F487645517A8B7830030BC50 /* Default@2x.png */,
+				F487645717A8B7830030BC50 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4C427641A30236B00DBFDA2 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tmp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F487643D17A8B7830030BC50 /* ABCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F487646417A8B7830030BC50 /* Build configuration list for PBXNativeTarget "ABCalendar" */;
+			buildPhases = (
+				F487643A17A8B7830030BC50 /* Sources */,
+				F487643B17A8B7830030BC50 /* Frameworks */,
+				F487643C17A8B7830030BC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABCalendar;
+			productName = ABCalendar;
+			productReference = F487643E17A8B7830030BC50 /* ABCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F487643617A8B7830030BC50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Cygnus;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Roman Ayala Cordero";
+			};
+			buildConfigurationList = F487643917A8B7830030BC50 /* Build configuration list for PBXProject "ABCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F487643517A8B7830030BC50;
+			productRefGroup = F487643F17A8B7830030BC50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F487643D17A8B7830030BC50 /* ABCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F487643C17A8B7830030BC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F487644C17A8B7830030BC50 /* InfoPlist.strings in Resources */,
+				F487645417A8B7830030BC50 /* Default.png in Resources */,
+				F487645617A8B7830030BC50 /* Default@2x.png in Resources */,
+				F487645817A8B7830030BC50 /* Default-568h@2x.png in Resources */,
+				F487646817A8B7AF0030BC50 /* ABCalendarPicker.bundle in Resources */,
+				F488824417B1EDED00A85D44 /* MainWindow.xib in Resources */,
+				F483042C17B9D7330065B258 /* HeaderViewCalendar.xib in Resources */,
+				F488323417BDCBB900E22025 /* DetailViewController.xib in Resources */,
+				F4B6A1AF1951360F00E11512 /* CustomerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F487643A17A8B7830030BC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F487644E17A8B7830030BC50 /* main.m in Sources */,
+				F487645217A8B7830030BC50 /* CygnusAppDelegate.m in Sources */,
+				F487645B17A8B7830030BC50 /* CygnusViewController.m in Sources */,
+				F48361621A28308A003E55E5 /* FMDatabase.m in Sources */,
+				F48361631A28308A003E55E5 /* FMResultSet.m in Sources */,
+				F481D4931A2BDCC900FE1341 /* FMDatabasePool.m in Sources */,
+				F483042717B9C89C0065B258 /* DCDate.m in Sources */,
+				F483042A17B9CC620065B258 /* DCDatesStore.m in Sources */,
+				F488323217BDCB8100E22025 /* DetailViewController.m in Sources */,
+				F4B6A1AE1951360F00E11512 /* CustomerViewController.m in Sources */,
+				F4FB5FF219526A6C00FF0232 /* DCCustomer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F487644A17A8B7830030BC50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F487644B17A8B7830030BC50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F487646217A8B7830030BC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F487646317A8B7830030BC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F487646517A8B7830030BC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ABCalendar/ABCalendar-Prefix.pch";
+				INFOPLIST_FILE = "ABCalendar/ABCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F487646617A8B7830030BC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ABCalendar/ABCalendar-Prefix.pch";
+				INFOPLIST_FILE = "ABCalendar/ABCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F487643917A8B7830030BC50 /* Build configuration list for PBXProject "ABCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F487646217A8B7830030BC50 /* Debug */,
+				F487646317A8B7830030BC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F487646417A8B7830030BC50 /* Build configuration list for PBXNativeTarget "ABCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F487646517A8B7830030BC50 /* Debug */,
+				F487646617A8B7830030BC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F487643617A8B7830030BC50 /* Project object */;
+}
